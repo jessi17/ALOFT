@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.jessipsm.aloft"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>ALOFT</name>
+
+    <description>
+        Esta aplicación lo acompañara y preparará como aspirante en su proceso de ingreso a la Fuerza Aérea Colombiana
+    </description>
+
+    <author href="https://build.phonegap.com" email="jesicasalazar17@gmail.com">
+        Jessica Salazar 
+    </author>
+
+</widget>

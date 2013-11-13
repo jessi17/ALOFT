@@ -16,5 +16,8 @@
     <author href="https://build.phonegap.com" email="jesicasalazar17@gmail.com">
         Jessica Salazar 
     </author>
-
+<icon src="icons/ldpi.png" gap:platform="android" gap:density="ldpi.png"/>
+<icon src="icons/mdpi.png" gap:platform="android" gap:density="mdpi.png"/>
+<icon src="icons/hdpi.png" gap:platform="android" gap:density="hdpi.png"/>
+<icon src="icons/xhdpi.png" gap:platform="android" gap:density="xhdpi.png"/>
 </widget>

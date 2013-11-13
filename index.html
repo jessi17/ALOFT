@@ -2,12 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ALOFT</title>
 
 </head>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="jquery.mobile-1.3.2.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="Aloft.min.css" />
+<link rel="stylesheet" href="jquery.mobile.structure-1.3.2.min.css" />
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jquery.mobile-1.3.2.min.js"></script>
 
 
 
@@ -64,7 +68,7 @@
 <label for="password">Contraseña:</label>
 <input type="password" name="password" id="password" value="" autocomplete="off">
 <br />
-<a href="#resultados" data-role="button">Aceptar</a>
+<a href="#resultados" data-theme="c" data-role="button">Aceptar</a>
     </div>
     <div data-theme="a" data-role="footer" data-position="fixed">
         <div data-role="navbar" data-iconpos="top">
@@ -258,7 +262,7 @@
 
 <!-- Pagina 2-1 "Test IQ" -->
 <div data-role="page" id="test">
-    <div data-theme="a" data-role="header" data-position="fixed">
+    <div data-theme="b" data-role="header" data-position="fixed">
         <h1>
             ALOFT
         </h1>
@@ -294,8 +298,23 @@
     <br />
 <br />
 <br />
-<img src="img/IQ.jpg" alt="image" style="width:100%">
-<a href="http://www.quickiqtest.net/spanish/firstqes.php" title="Iniciar"><input type="button" value="Iniciar"></a>
+INSTRUCCIONES PARA EL TEST DE IQ:<br />
+<br /><br />
+
+Este test de IQ probara su inteligencia con buenas preguntas en un breve espacio de tiempo<br />
+<br />
+<br /><br />
+
+El test consta de 15 preguntas con cuadros<br /><br />
+
+Las preguntas se califican de acuerdo a la dificultad<br /><br />
+
+Las respuestas incorrectas no reducen la cantidad de puntos que se ha alcanzado<br /><br />
+
+Siempre hay una sola respuesta correcta<br />
+<br />
+
+<a href="http://www.quickiqtest.net/spanish/firstqes.php" title="Iniciar"> <input type="button" value="Iniciar" data-theme="c"></a>
 
     </div>
     <div data-theme="a" data-role="footer" data-position="fixed">
@@ -373,7 +392,23 @@
     <br />
 <br />
 <br />
-<img src="img/mate.jpg" alt="image" style="width:100%">
+INSTRUCCIONES PARA EL TEST DE MATEMÁTICAS:<br /><br />
+
+<br />
+Este test de Matemáticas probara su agilidad mental en esta área.<br />
+<br />
+<br /><br />
+
+El test consta de 10 preguntas con un cuado de texto para digitar la respuesta<br /><br />
+
+Las respuesta incorrectas no reducen la cantidad de puntos que se han alcanzado<br /><br />
+
+Siempre hay una sola respuesta correcta<br /><br />
+
+El test cuenta con un temporizador, con el cual podra tener presente su record en contestar las 10 preguntas<br />
+<br /><br />
+
+
 <a href="http://www.thatquiz.org/es-1/matematicas/aritmetica/" title="Iniciar"><input type="button" value="Iniciar"></a>
 
     </div>
@@ -450,7 +485,21 @@
     <br />
 <br />
 <br />
-<img src="img/Ingles.jpg" alt="image" style="width:100%">
+INSTRUCCIONES PARA EL TEST DE INGLÉS:<br />
+<br /><br />
+
+Este test de Inglés definirá su nivel en esta área con buenas preguntas en un breve espacio de tiempo<br /><br />
+
+<br />
+<br />
+El test consta de 30 preguntas<br /><br />
+
+Las respuestas incorrectas no reducen la cantidad de puntos que se han alcanzado<br /><br />
+
+Siempre hay una sola respuesta correcta<br /><br />
+
+<br />
+
 <a href="http://www.grupovaughan.com/english_test" title="Iniciar"><input type="button" value="Iniciar"></a>
 
     </div>
@@ -596,10 +645,21 @@
     <div data-role="content">
     <br />
 <br />
+<br /><div class="ui-grid-b">
+    <div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:110px">Toma el tiempo de tu recorrido. <br />
+¡A CORRER!</div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:110px"><div style="width:164px;"><!-- Chronme Online Stopwatch widget. --><iframe src="http://www.chronme.com/index_mini.html" frameborder="0" marginwidth="0px" marginheight="0px "width="165" height="110" scrolling="no"></iframe>
+<div style="font-size:0.8em; margin-top:-15px; font-family:Verdana, Arial, Helvetica, sans-serif;text-align:center;"><a style="text-decoration:none;color:#CCCCCC;" href="http://online-stopwatch.chronme.com" title="Online Stopwatch full version"></a></div>
+</div></div></div>
+    <div class="ui-block-c"><div class="ui-bar ui-bar-e" style="height:110px">Guarda en avances tu nuevo record</div></div><br />
 <br />
-<div style="width:164px;"><!-- Chronme Online Stopwatch widget. --><iframe src="http://www.chronme.com/index_mini.html" frameborder="0" marginwidth="0px" marginheight="0px "width="165" height="110" scrolling="no"></iframe>
-<div style="font-size:0.8em; margin-top:-15px; font-family:Verdana, Arial, Helvetica, sans-serif;text-align:center;"><a style="text-decoration:none;color:#CCCCCC;" href="http://online-stopwatch.chronme.com" title="Online Stopwatch full version">online stopwatch</a></div>
-</div>
+<br />
+<br />
+<br />
+
+    <img src="img/corre.jpg">
+</div><!-- /grid-b -->
+
 
     </div>
     <div data-theme="a" data-role="footer" data-position="fixed">
@@ -633,7 +693,7 @@
 
 <!-- Pagina 4-1 "Noticias" -->
 <div data-role="page" id="noticias">
-    <div data-theme="a" data-role="header" data-position="fixed">
+    <div data-theme="b" data-role="header" data-position="fixed">
         <h1>
             ALOFT
         </h1>
@@ -666,11 +726,55 @@
         </div>
     </div>
     <div data-role="content">
-    <br />
-<br />
-<br />
-<img src="img/noticias.jpg" alt="image" style="width:100%">
-<a href="https://www.fac.mil.co/?idcategoria=67387" title="Ver Noticias"><input type="button" value="Ver Noticias"></a>
+    <p><br />
+  <br />
+  <br />
+      Comando Aéreo de Combate No. 5 salva la vida de cuatro civiles en Betulia, Antioquia<br />
+      <img src="img/1.png">
+      05 de noviembre de 2013</p>
+    <p><br />
+      
+      Comando Aéreo de Combate No. 5 salva la vida de cuatro civiles en Betulia, Antioquia
+      El Comando Aéreo de Combate No.5 ubicado en Rionegro, Antioquia, dispuso del Helicóptero UH-60 FAC 4138 "Ángel III", con equipos médicos y tripulaciones entrenadas para garantizar el traslado seguro de cuatro civiles heridos que dejo un accidente de un bus escalera ocurrido en la jurisdicción de Betulia, Antioquia, a la altura de la Vereda Aguamala, en la vía que conduce a Urrao.      </p>
+    <p>El requerimiento fue enviado por el Centro Regulador de Urgencias y Emergencias de la Gobernación de Antioquia, debido a que necesitaban ser trasladados de inmediato para recibir atención médica especializada.      </p>
+    <p>Los heridos, tres hombres y una niña de 9 años de edad, con fracturas en sus miembros inferiores, fueron atendidos por los Para-rescatistas y el Médico de Aviación de la Unidad, quienes los mantuvieron estables mientras eran trasladados al Programa Aéreo de Salud del Aeropuerto Olaya Herrera de Medellín.      </p>
+    <p>Así mismo, el Comando Aéreo de Combate No. 5 se encargó de llevar a unos funcionarios de la Gobernación de Antioquia hasta el sitio del accidente para verificar los daños humanos y materiales que dejó este suceso</p>
+    <p>.
+      
+      El Comando Aéreo de Combate No. 5 continuará atento socorrer a quienes lo necesiten en cualquier rincón de Colombia, en cumplimiento de misión de Responsabilidad Social.      </p>
+    <p>Subteniente Paola Medina Sánchez - Página WEB CACOM-5</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    
+    <p>Celebración de Día de los Niños en Engativá      </p>
+    <img src="img/2.jpg">
+    <p>01 de noviembre de 2013      </p>
+    <p>Celebración de Día de los Niños en Engativá
+      Soldado Juan Pablo Castillo Acción Integral CATAM
+      Princesas, súper héroes, brujitas y muchos animales del bosque fueron representados por cientos de niños de la Localidad de Engativá que disfrutaron junto al capitán Paz de un día de Halloween.</p>
+    <p> En la jornada se les brindo a los niños miles de dulces donados por el personal que labora en el Comando Aéreo de Transporte Militar CATAM, se realizaron rifas para premiar los mejores disfraces y se les dio refrigerios a los niños que se congregaron el salón comunal del barrio Villa Claver donde se realizo dicho evento.</p>
+    <p> Adicionalmente, los niños en agradecimiento con la Fuerza Aérea Colombiana, escribieron cartas de apoyo dirigidas a los soldados de tierra, mar y aire que en esta próxima Navidad estarán lejos de sus hogares y que con estos mensajes recibirán el apoyo de todo el pueblo colombiano en esa labor tan importante de prestarle seguridad a la Nación.      </p>
+    <p>Técnico Primero Germán A. Pinzón O. Acción Integral CATAM </p><br />
+ <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    
+    <p> Comando Aéreo de Transporte Militar traslada indígenas a Bogotá y Santa Marta     </p>
+    <p><img src="img/3.jpg">
+      </p>
+    <p>01 de noviembre de 2013      </p>
+    <p>Comando Aéreo de Transporte Militar traslada indígenas a Bogotá y Santa Marta
+      Soldado Juan Pablo Castillo - Departamento de Acción Integral CATAM
+      Once indigenas Mamos, pertenecientes a la comunidad indigena Kogui ubicada en la Sierra Nevada de Santa Marta, fueron trasportados desde su lugar de origen a Bogotá y posteriormente de regreso por la Fuerza Aérea Colombiana.</p>
+    <p> Estos indigenas dirigentes de su comunidad se desplazaron a la ciudad de Bogotá para reunirse con el señor Juan Mayer, encargado de la Embajada de Colombia en Alemania, para iniciar un apoyo de este país a los indigenas en Colombia.</p>
+    <p> Una aeronave C-40 realizó esta importante misión de regreso a la Sierra Nevada de Santa Marta.</p>
+    <p> Capitán Lorena Hernández Jara - Página web CATAM </p>
+    </a>
 
     </div>
     <div data-theme="a" data-role="footer" data-position="fixed">
@@ -705,7 +809,7 @@
 
 <!-- Pagina 4-1 "Notas aéreas" -->
 <div data-role="page" id="notasaereas">
-    <div data-theme="a" data-role="header" data-position="fixed">
+    <div data-theme="b" data-role="header" data-position="fixed">
         <h1>
             ALOFT
         </h1>
@@ -738,11 +842,52 @@
         </div>
     </div>
     <div data-role="content">
-    <br />
+    <p><br />
+  <br />
+  <br />
+      Apertura Oficial del Ejercicio Internacional Cruzex Flight 2013     </p>
+      <img src="img/4.jpg">
+    <p> 04 de noviembre de 2013</p>
+    <p> Apertura Oficial del Ejercicio Internacional Cruzex Flight 2013</p>
+    <p> En el Auditorio "Cine Navy"de la Base Aérea de Natal-Brasil, construida en el año de 1942, durante la segunda guerra mundial por los estadounidenses, se dio apertura oficial al Ejercicio Cruzex Flight 2013</p>
+    <p>.
+      El señor Coronel Joao Bosco Lucio Da Silva Felix, Codirector del Ejercicio presentó un saludo de bienvenida, a todas las delegaciones de los 8 Países participantes, Brasil, Estados Unidos, Chile, Ecuador, Colombia, Venezuela, Uruguay y Canadá, con la ausencia de Argentina quien no se presentó al Ejercicio Internacional.</p>
+    <p> Seguido al acto de apertura, se llevó a cabo el "Mass Briefing" en el cual se informó a las delegaciones expedicionarias sobre la seguridad aérea y terrestre, logística general evento y las instrucciones operacionales en las cuales se destacó la importancia de interoperabilidad entre las Fuerzas Aéreas de los Países protagonistas, en uno de los eventos más importantes de la aviación militar en el mundo.</p>
+    <p> Subteniente Leal Mora Nilsa, Página web CACOM-3</p>
+    <p><br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+      Por primera vez un avión KC-767 Colombiano reabastece de combustible en vuelo a aeronaves de combate brasileras
+     </p>
+    <p> 02 de noviembre de 2013</p>
+    <img src="img/5.jpg">
+    <p> En horas de la mañana, el cielo brasilero se engalanó con un avión KC-767 colombiano y 4 aeronaves de combate F-5 y F-2000 brasileras, quienes cumplieron por primera vez una importante misión operacional de reabastecimiento de combustible en vuelo.</p>
+    <p> La aeronave tanquero Colombiana logró trasferir un total de 4328 libras de combustible, en 4 conexiones, a las aeronaves de combate aéreo brasileras destacando una vez más el profesionalismo de los pilotos de Colombia y Brasil, los cuales aterrizaron sin novedad en la Base Aérea de Natal, ubicada en el Estado de Rio Grande del Norte en Brasil.</p>
+    <p> Según el señor Coronel David Barrero, Comandante del Comando Aéreo de Combate No.3 de la Fuerza Aérea Colombiana, "el sentimiento que despierta el compromiso de estos pilotos es la satisfacción del deber cumplido en una de las primeras misiones de preparación, la cual destaca la interoperabilidad entre los Países, antes del inicio del Ejercicio Internacional Cruzex Fligth 2013".
+      </p>
+    <p>Subteniente Nilsa Leal - Prensa Cruzex 2013 </p>
+    <p><br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+      Fuerza Aérea Colombiana se destaca en Brasil para el inicio de “Cruzex Flight 2013”
+      </p>
+    <p>01 de noviembre de 2013</p>
+    <img src="img/6.jpg">
+    <p> Fuerza Aérea Colombiana se destaca en Brasil para el inicio de “Cruzex Flight 2013”</p>
+    <p> Militares designados por la Fuerza Aérea Colombiana para participar en el Ejercicio Internacional “Cruzex Flight 2013” , realizaron la segunda fase del desplazamiento operacional desde la ciudad de Manaos, sobrevolando el río Amazonas y cruzando ciudades como Teresina, Santarem, Parintins y Fortaleza, para finalmente aterrizar en Natal, capital del Estado de Río Grande del Norte en Brasil.      </p>
+    <img src="img/7.jpg">
+    <p>Durante 2 días en Crucero, a 18 pies de altitud, los integrantes de esta Comisión Internacional llevaron a cabo la travesía desde Colombia a Brasil por más de 10 horas de vuelo con el fin de estar a tiempo para el planeamiento previo del Ejercicio. Durante el recorrido total de 2800 millas náuticas se realizaron misiones de reabastecimiento de combustible en vuelo y transporte táctico, antes de iniciar la fase de familiarización con los vuelos de ataque aire-tierra, que se llevaran a cabo con aviones de combate A37B.</p>
+    <p> A la Llegada el señor Coronel David Barrero Barrero destacó la bandera de Colombia en la rampa militar del aeropuerto Internacional Augusto Severo de Natal, para engalanar la llegada de la representación de la Fuerza Aérea Colombiana al territorio Brasileño.</p>
+    <p> Subteniente Nilsa Leal Mora - Oficina de Prensa Comando Aéreo de Combate No. 3 </p><br />
 <br />
-<br />
-<img src="img/notas.jpg" alt="image" style="width:100%">
-<a href="https://www.fac.mil.co/?idcategoria=24" title="Ver Notas"><input type="button" value="Ver Notas"></a>
+
+    </a>
 
     </div>
     <div data-theme="a" data-role="footer" data-position="fixed">
@@ -770,3 +915,4 @@
 
 </body>
 </html>
+
